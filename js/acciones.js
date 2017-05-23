@@ -1,7 +1,7 @@
 // JavaScript Document
 
-$(document).redy(function (e) {
-	document.activeElementListener ("deviceready", onDeviceReady,false);
+$(document).ready(function (e) {
+	document.addEventListener ("deviceready", onDeviceReady,false);
 	
 });
 
